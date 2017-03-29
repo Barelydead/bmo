@@ -1,0 +1,382 @@
+html {
+    background-color: lightgrey;
+}
+
+body {
+    background: #eee;
+    width: 80%;
+    margin: auto;
+}
+
+h1, h2, h3 {
+    color: #000;
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    color: black;
+}
+
+.left {
+    float: left;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: pink;
+}
+
+.start-headline {
+    font-size: 35px;
+    display: inline;
+}
+
+/** START HEADER **/
+.site-header {
+    background-image: url("../img/header/lights.jpg");
+    background-size: 1900px;
+    background-repeat: no-repeat;
+    height: 160px;
+    padding-top: 1.5em;
+}
+.header-wrap {
+    width: 700px;
+    padding-top: 15px;
+    margin: auto;
+}
+.site-title {
+    margin: auto;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 2px;
+    color: #eee;
+}
+
+.title-ingress {
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    color: #eee;
+}
+
+.site-logo {
+    height: 100px;
+
+}
+
+.header-logo{
+    width: 15%;
+}
+
+.header-text {
+    width: 85%;
+}
+/** END OF HEADER **/
+
+/** START NAVBAR **/
+
+.navbar-wrap {
+    background-color: #2A2A2A;
+    height: 43px;
+}
+
+.navbar-div {
+    width: 650px;
+    margin: auto;
+}
+
+.button {
+    height: 36px;
+    width: auto;
+    padding-top: 7px;
+    padding-right: 1em;
+    padding-left: 1em;
+    text-align: center;
+}
+
+.navbar a {
+    color: #eee;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    color: black;
+}
+
+.active {
+    background-color: #396F71;
+    height: 36px;
+    width: auto;
+    padding-top: 7px;
+    padding-right: 1em;
+    padding-left: 1em;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: grey;
+}
+
+/** END OF NAVBAR **/
+
+/**START ARTICLE LAYOUT**/
+
+
+.main-wrap {
+    border-top: 9px solid #396F71;
+}
+.left-div {
+    float: left;
+    width: 22%;
+    background-color: #eee;
+    min-height: 400px;
+    padding: 1em;
+    height: 100%;
+}
+
+.right-div {
+    width: 55%;
+    background-color: #eee;
+    min-height: 600px;
+    float: left;
+    margin-bottom: 1em;
+    padding-top: 2em;
+
+}
+
+.pubdate {
+    float:right;
+    display: block;
+}
+
+.pic-holder {
+    width: 180px;
+    height: 180px;
+    margin: 5px;
+}
+
+.article-thumb {
+    width: 180px;
+}
+
+
+.pageturner {
+ padding: 1em;
+ clear:both;
+}
+
+/**END OF ARTICLE LAYOUT**/
+
+/**START OBJEKT LAYOUT**/
+
+.object-pic-div {
+    float:left;
+    width: 55%;;
+}
+
+.object-pic {
+    max-width: 100%;
+}
+
+.object-h2 {
+    display: inline;
+}
+.object-info-div {
+    padding-left: 2em;
+    width: 30%;
+
+}
+
+.thumb-div {
+    clear: both;
+}
+
+.thumb-holder {
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    float: left;
+    margin: 5px;
+}
+
+
+/**END OBJEKT LAYOUT**/
+
+.maggy-pic {
+    width: 80%;
+    background-color: red;
+}
+
+.picture-float {
+    float: right;
+    clear: both;
+    max-width: 25%;
+    margin: 1em;
+    margin-top: 4.5em;
+}
+.picture-double {
+    max-width: 45%;
+}
+
+.pic-standard {
+    max-width: 50%;
+}
+
+.pic-wide {
+    max-width: 80%;
+
+}
+.maggy-container {
+    overflow: auto;
+}
+
+/**END OF MAGGY ARTICLE*/
+
+/*ADMIN*/
+.adminlink {
+    float:left;
+}
+
+.admin-wrap {
+    width: 20%;
+    margin: auto;
+}
+
+.aside-div {
+
+    width: 15%;
+}
+
+.admin-div {
+
+    padding: 1em;
+    width: 55%;
+
+}
+
+
+/**START FOOTER **/
+
+
+.site-footer {
+    background-color: #2A2A2A;
+    min-height: 3em;
+    clear: both;
+    overflow: auto;
+    border-top: 9px solid #396F71;
+}
+
+.footer-wrap {
+    width: 550px;
+    margin: auto;
+}
+
+.footer-column {
+    float: left;
+    width: 150px;
+    padding: 1em;
+}
+
+.footer-headline {
+    color: grey;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-list {
+    font-size: 15px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-text {
+    color: grey;
+}
+
+.footer-text:visited {
+    color: grey;
+}
+
+.footer-text:hover {
+    color: #000;
+}
+
+/** responsive */
+@media (max-width: 980px) {
+    body {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    .left-div {
+        float: none;
+        min-height: inherit;
+        width: auto;
+    }
+    .right-div {
+        width: auto;
+        padding: 15px;
+    }
+    .footer-column {
+        float: none;
+        margin: auto;
+    }
+
+    .site-title, .title-ingress {
+        font-size: 15px;
+    }
+
+    .object-pic-div {
+        float: none;
+        width: auto;
+        padding-left: 1em;
+    }
+
+    .object-info-div {
+        padding-left: 1em;
+        float: none;
+        width: auto;
+    }
+
+    .start-headline {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 570px) {
+
+    .navbar-wrap {
+        height: auto;
+        overflow: auto;
+    }
+
+    .button {
+        float: none;
+        width: auto;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .active {
+        float: none;
+        width: auto;
+        text-align: left;
+        padding-left: 10px;
+    }
+}
+
+/**END OF FOOTER**/
